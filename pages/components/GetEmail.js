@@ -62,7 +62,7 @@ const GetEmail  = () => {
           // body: '{"key1":"value","key2":"value"}'
       };
       
-    const response = await fetch('https://temp-mail44.p.rapidapi.com/api/v3/email/6bd622a355msh7870a5a5c2c0dfcp1dbf6ejsnd173b306e401', options)
+    const response = await fetch('6bd622a355msh7870a5a5c2c0dfcp1dbf6ejsnd173b306e401', options)
           .then(async(res)=>{
               let data =await res.json();
               setEmail(data);
