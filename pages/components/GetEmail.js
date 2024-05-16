@@ -56,8 +56,8 @@ const GetEmail  = () => {
           method: 'POST',
           headers: {
               'content-type': 'application/json',
-              'X-RapidAPI-Key': process.env.NEXT_PUBLIC_RAPIDAPI_KEY,
-              'X-RapidAPI-Host': '6bd622a355msh7870a5a5c2c0dfcp1dbf6ejsnd173b306e401'
+              'X-RapidAPI-Key': '6bd622a355msh7870a5a5c2c0dfcp1dbf6ejsnd173b306e401',
+              'X-RapidAPI-Host': 'temp-mail44.p.rapidapi.com'
           },
           // body: '{"key1":"value","key2":"value"}'
       };
@@ -89,8 +89,8 @@ const GetEmail  = () => {
             method: 'GET',
             headers: {
                 'content-type': 'application/json',
-                'X-RapidAPI-Key': process.env.NEXT_PUBLIC_RAPIDAPI_KEY,
-                'X-RapidAPI-Host': '6bd622a355msh7870a5a5c2c0dfcp1dbf6ejsnd173b306e401'
+                'X-RapidAPI-Key': '6bd622a355msh7870a5a5c2c0dfcp1dbf6ejsnd173b306e401',
+                'X-RapidAPI-Host': 'temp-mail44.p.rapidapi.com'
             },
             // body: '{"key1":"value","key2":"value"}'
         };
